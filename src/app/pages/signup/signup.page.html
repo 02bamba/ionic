@@ -1,0 +1,30 @@
+<ion-content [fullscreen]="true">
+  <div class="header">
+    <h1 class="title">Sign up</h1>
+    <p class="subTitle">Sign up to create your account</p>
+  </div>
+
+<form>
+  <div class="ion-padding">
+    <ion-item>
+      <ion-input placeholder="name" class="input"></ion-input>
+      <ion-icon name="person-outline"></ion-icon>
+    </ion-item>
+  
+    <ion-item>
+      <ion-input placeholder="email" class="input"></ion-input>
+      <ion-icon name="person-outline"></ion-icon>
+    </ion-item>
+    <ion-item>
+      <ion-input placeholder="password" class="input"></ion-input>
+      <ion-icon name="lock-closed-outline"></ion-icon>
+    </ion-item>
+    <div class="signinLink">
+      <p>Already a member ?
+        <a style="color: #FFC33F;" [routerLink]="['/login']">Login Now</a>
+      </p>
+    </div>
+  </div>
+</form>
+<ion-button shape="round" [routerLink]="['/home']">valid</ion-button>
+</ion-content>
