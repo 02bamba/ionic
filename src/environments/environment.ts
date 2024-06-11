@@ -10,7 +10,7 @@ export const environment = {
     projectId: "",
     storageBucket: "",
     messagingSenderId: "1",
-    appId: "1:286313645711:web:"
+    appId: ":"
   }
 };
 
